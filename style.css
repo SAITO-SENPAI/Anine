@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400&subset=vietnamese');
+
+cơ thể người {
+
+  lề: 0;
+
+  đệm: 0;
+
+  font-family: 'Roboto', sans-serif ;;
+
+  màu nền: # f8f8f8;
+
+  hiển thị: flex;
+
+  justify-content: trung tâm;
+
+  align-các mục: trung tâm;
+
+  flex-hướng: cột;
+
+  chiều cao tối thiểu: 100vh;
+
+  màu: rgba (0, 0, 0, 0.653);
+
+  background: url (https://wallpapercave.com/wp/wp6651550.jpg) cố định trung tâm không lặp lại trung tâm;
+
+  text-shadow: 0 .2px .3px rgba (0, 0, 0, 0.353);
+
+  background-size: bìa;
+
+}
+
+#thời gian {
+
+  font-size: 30px;
+
+  màu vàng;
+
+}
+
+.hộp {
+
+  nền-màu: đen;
+
+  box-shadow: 0 3px 6px rgba (0,0,0, .1);
+
+  đệm: 1rem;
+
+  chiều rộng: 60%;
+
+  bán kính đường viền: 26px;
+
+  độ mờ: 0,3;
+
+}
+
+.chủ chốt {
+
+  hiển thị: flex;
+
+  align-các mục: trung tâm;
+
+  đệm: 0 1rem;
+
+  margin-bottom: 3rem;
+
+  margin-top: 10px;
+
+  chức vụ: thân nhân;
+
+  màu vàng;
+
+  font-size: 20px;
+
+  độ mờ: 1;
+
+}
+
+.chủ nhân {
+
+  text-align: center;
+
+  font-weight: 100;
+
+  màu vàng;
+
+  margin-bottom: 0;
+
+}
+
+.owner a {
+
+  văn bản-trang trí: không có;
+
+  
+
+}
+
+.chức vụ {
+
+  độ mờ: 0,4;
+
+}
+
+@media (max-width: 997px) {
+
+  .hộp {
+
+    chiều rộng: 84%;
+
+    margin-bottom: 2rem;
+
+  }
+
+ 
+
+  .chức vụ {
+
+    lề: 2rem 0 1rem 0;
+
+    font-size: 35px;
+
+  }
+
+  
+
+  .chủ chốt {
+
+    flex-hướng: cột;
+
+    đệm: 0;
+
+  }
+
+.chủ nhân{
+
+    margin-top: 2rem;
+
+    font-size: 35px;
+
+  }
+
+}
